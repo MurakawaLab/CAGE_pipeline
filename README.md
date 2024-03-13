@@ -1,5 +1,6 @@
 # CAGE_pipeline
-A set of scripts to analyse CAGE datatsets. 
+A set of scripts to analyse CAGE datatsets.
+
 
 Most of these scripts are based on the pipeline developed by the FANTOM5 consortium. 
 Some key references: Forrest et al Nature 2014; Andersson et al Nature 2014
