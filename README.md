@@ -11,7 +11,7 @@ A brief description is provided below.
 
 	1.2: Creating a mask file used during enhancer identification. 
 
-	2: Mapping single-end CAGE reads.
+	2: Mapping no-amplification non-tagging (nAnTi) single-end CAGE reads.
 
 	3: Identifying reads with an unencodedG at the 5' end (Oguchi et al Manuscript in revision). 
 
@@ -19,6 +19,6 @@ A brief description is provided below.
 
 	5: Counting CAGE reads mapping to known promoters and enhancers.
 
-	6: Identifying bidirectionally transcribed enhancers (Original code: https://github.com/anderssonrobin/enhancers)
+	6: Identifying bidirectionally transcribed enhancers (Original code: https://github.com/anderssonrobin/enhancers).
 
 
