@@ -13,7 +13,7 @@ A brief description is provided below.
 
 	2: Mapping no-amplification non-tagging (nAnTi) single-end CAGE reads.
 
-	3: Identifying reads with an unencodedG at the 5' end (Oguchi et al Manuscript in revision). 
+	3: Identifying reads with an unencoded G at the 5' end (Oguchi et al Manuscript in revision). 
 
 	4: Identifying CAGE transcription start sites (CTSS). 
 
