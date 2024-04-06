@@ -11,7 +11,7 @@ A brief description is provided below.
 
 	1.2: Creating a mask file used during enhancer identification. 
 
-	2: Mapping no-amplification non-tagging (nAnTi) single-end CAGE reads.
+	2: Mapping no-amplification non-tagging (nAnTi) single-end CAGE reads or using paired-end CAGE reads.
 
 	3: Identifying reads with an unencoded G at the 5' end (Oguchi et al Manuscript in revision). 
 
