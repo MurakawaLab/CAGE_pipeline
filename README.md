@@ -5,7 +5,7 @@ Many of these scripts are based on the pipeline developed by the FANTOM5 consort
 Some key references: Forrest et al Nature 2014; Andersson et al Nature 2014.
 
 All scripts are in the bin directory, please check the individual scripts for detailed usage. 
-A brief description is provided below.
+A brief description is provided below:
 
 	1.1: Creating STAR index for human and mouse. This script uses GENCODE gtf files.
 
