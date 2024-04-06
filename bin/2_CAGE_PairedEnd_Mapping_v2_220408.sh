@@ -109,7 +109,7 @@ mv *_STARtmp MappedRibosomal
 cd ForAlignment
 
 
-### Align with to genome of interest with default parameters and desired multimap number
+### Align with to genome of interest with default parameters and desired number of multimap reads
 for infile in *.mate1.gz
  do
    base=$(basename ${infile} .mate1.gz)
