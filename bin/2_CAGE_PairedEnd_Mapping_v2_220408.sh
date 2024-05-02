@@ -19,8 +19,8 @@ function usage()
  -r Path to Directory with STAR index for ribosomal RNA.
  -g Path to Directory with STAR index for reference genome.
  -t Thread count.
- -m Multimap count.
- -n Number of bases in random seq to be excluded for mapping.
+ -m Multimap count. For example, 50 was used in Oguchi et al. Science, 2024. 
+ -n Number of bases to be excluded from mapping. Please keep this option as 15 (Oguchi et al. Science, 2024). 
 All fastq input files must be in the working directory and have the suffix "_R1_001.fastq.gz" or "_R2_001.fastq.gz".
 
 usage: $0 -r rRNA_STARindex -g Genome_STARindex -t integer -m integer -n integer
