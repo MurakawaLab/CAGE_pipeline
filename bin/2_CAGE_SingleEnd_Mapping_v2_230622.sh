@@ -19,7 +19,7 @@ function usage()
  -r Path to Directory with STAR index for ribosomal RNA.
  -g Path to Directory with STAR index for reference genome.
  -t Thread count.
- -m Multimap count.
+ -m Multimap count. For example, 50 was used in Oguchi et al. Science, 2024. 
  -p Path to trimmomatic Directory.
 All fastq input files must be in your working directory and have the suffix ".fastq.gz".
 
@@ -59,7 +59,7 @@ if [ "${PathTrimmomatic}" = "" ]; then usage; fi
 ### If trimmomatic does not work with high number of threads, please input "java -Xms4g -Xmx4g -jar"
 for infile in *.fastq.gz
  do
-   base=$(basename ${infile} _R1_001.fastq.gz)
+   base=$(basename ${infile} .fastq.gz)
    java -jar ${PathTrimmomatic}/trimmomatic-0.39.jar SE -threads ${IntegerT} -phred33 \
                 ${infile} ${base}_trimmed.fastq.gz \
                 ILLUMINACLIP:${PathTrimmomatic}/adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:4:15 MINLEN:25
